@@ -1,0 +1,20 @@
+[
+  {
+    "id": "doc_invoice_01",
+    "description": "Clean commercial invoice with line items",
+    "ground_truth": "INVOICE #INV-2026-904 Total Amount Due: $14,250.00 Terms: Net 30 Days Payable to Apex Technologies LLC",
+    "ocr_output": "INVOICE #INV-2026-904 Total Amount Due: $14,250.00 Terms: Net 30 Days Payable to Apex Technologies LLC"
+  },
+  {
+    "id": "doc_medical_02",
+    "description": "Clinical discharge summary with minor scanner noise",
+    "ground_truth": "Patient was prescribed Metformin 500mg twice daily with meals. Follow up in four weeks.",
+    "ocr_output": "Patient was prescribed Metformin 500mg twice daily with meals. Follow up in four weeks."
+  },
+  {
+    "id": "doc_contract_03",
+    "description": "Legal agreement paragraph with OCR character substitution",
+    "ground_truth": "The parties agree that jurisdiction and venue shall lie exclusively in the courts of Delaware.",
+    "ocr_output": "The parties agree that jurisdiction and venue shall lie exclusively in the courts of Delaware."
+  }
+]
